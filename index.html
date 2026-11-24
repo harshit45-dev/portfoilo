@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section class="hero" id="home">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Meet Harshit Singh, an aspiring web developer learning to create modern,           responsive websites</p>
+      <p>Explore my work and get in touch!</p>
+      <a href="#contact" class="button">Contact me</a>
+   </section>  
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Harshit Singh, an aspiring web developer who enjoys creating
+        clean, responsive websites. I’m learning HTML, CSS, JavaScript, and React,
+        and I’m always looking for new ways to improve my skills.
+      </p>
+    </section>
+    <section class="skills" id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+<!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 Harshit Singh. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
